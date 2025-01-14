@@ -1,0 +1,32 @@
+[0.015s] Invoking command in '/home/cody-oh/Documents/Projects/rosRover/build/my_bot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cody-oh/Documents/Projects/rosRover/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cody-oh/Documents/Projects/rosRover/install/my_bot
+[0.365s] -- The C compiler identification is GNU 13.3.0
+[0.744s] -- The CXX compiler identification is GNU 13.3.0
+[0.781s] -- Detecting C compiler ABI info
+[1.050s] -- Detecting C compiler ABI info - done
+[1.098s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.100s] -- Detecting C compile features
+[1.103s] -- Detecting C compile features - done
+[1.142s] -- Detecting CXX compiler ABI info
+[1.498s] -- Detecting CXX compiler ABI info - done
+[1.518s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.519s] -- Detecting CXX compile features
+[1.520s] -- Detecting CXX compile features - done
+[1.553s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[1.554s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.554s]   has asked CMake to find a package configuration file provided by
+[1.554s]   "ament_cmake", but CMake did not find one.
+[1.555s] 
+[1.555s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.555s]   any of the following names:
+[1.556s] 
+[1.556s]     ament_cmakeConfig.cmake
+[1.556s]     ament_cmake-config.cmake
+[1.557s] 
+[1.557s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.557s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.558s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.558s]   has been installed.
+[1.558s] 
+[1.559s] [0m
+[1.559s] -- Configuring incomplete, errors occurred!
+[1.564s] Invoked command in '/home/cody-oh/Documents/Projects/rosRover/build/my_bot' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cody-oh/Documents/Projects/rosRover/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cody-oh/Documents/Projects/rosRover/install/my_bot
